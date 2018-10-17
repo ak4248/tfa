@@ -1,0 +1,12 @@
+#!/bin/nash
+# this means bash will the program
+sum=0
+# OK is this a comment?
+# to pass all variables - add @
+# if fixed variable then $V $X with space
+for arg in $@
+do
+    sum=$((arg+sum))
+done
+echo $sum
+
