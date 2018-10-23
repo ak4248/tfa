@@ -1,5 +1,6 @@
 #!/bin/nash
 # this means bash will the program
+# created by ak4248
 sum=0
 # OK is this a comment?
 # to pass all variables - add @
