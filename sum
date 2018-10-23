@@ -4,6 +4,7 @@ sum=0
 # OK is this a comment?
 # to pass all variables - add @
 # if fixed variable then $V $X with space
+# test to add a comment
 for arg in $@
 do
     sum=$((arg+sum))
